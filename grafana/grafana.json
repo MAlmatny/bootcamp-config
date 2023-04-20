@@ -39,20 +39,16 @@
             "mode": "percentage",
             "steps": [
               {
-                "color": "green",
+                "color": "red",
                 "value": null
               },
               {
-                "color": "red",
-                "value": 60
+                "color": "orange",
+                "value": 80
               },
               {
-                "color": "#EF843C",
+                "color": "green",
                 "value": 90
-              },
-              {
-                "color": "#E24D42",
-                "value": 100
               }
             ]
           },
@@ -633,20 +629,16 @@
             "mode": "percentage",
             "steps": [
               {
-                "color": "green",
+                "color": "red",
                 "value": null
               },
               {
-                "color": "red",
-                "value": 60
+                "color": "orange",
+                "value": 80
               },
               {
-                "color": "#EAB839",
+                "color": "green",
                 "value": 90
-              },
-              {
-                "color": "#6ED0E0",
-                "value": 100
               }
             ]
           },
@@ -1041,20 +1033,16 @@
             "mode": "percentage",
             "steps": [
               {
-                "color": "green",
+                "color": "red",
                 "value": null
               },
               {
-                "color": "#6ED0E0",
-                "value": 60
+                "color": "orange",
+                "value": 80
               },
               {
-                "color": "#EF843C",
+                "color": "green",
                 "value": 90
-              },
-              {
-                "color": "#E24D42",
-                "value": 100
               }
             ]
           },
@@ -1650,20 +1638,16 @@
             "mode": "percentage",
             "steps": [
               {
-                "color": "green",
+                "color": "red",
                 "value": null
               },
               {
-                "color": "#6ED0E0",
-                "value": 60
+                "color": "orange",
+                "value": 80
               },
               {
-                "color": "#EF843C",
+                "color": "green",
                 "value": 90
-              },
-              {
-                "color": "#E24D42",
-                "value": 100
               }
             ]
           },
@@ -2303,6 +2287,6 @@
   "timezone": "",
   "title": "Cognite Chapter 5",
   "uid": "e55ae004-8b5e-409b-81cb-2520b6a7ca5a",
-  "version": 21,
+  "version": 25,
   "weekStart": ""
 }
