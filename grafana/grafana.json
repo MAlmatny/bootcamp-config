@@ -30,7 +30,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "thresholds"
+            "mode": "continuous-GrYlRd"
           },
           "mappings": [],
           "thresholds": {
@@ -67,7 +67,8 @@
           "values": false
         },
         "showThresholdLabels": false,
-        "showThresholdMarkers": true
+        "showThresholdMarkers": true,
+        "text": {}
       },
       "pluginVersion": "9.5.0-cloud.4.a016665c",
       "targets": [
@@ -1011,7 +1012,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "thresholds"
+            "mode": "continuous-BlPu"
           },
           "mappings": [],
           "thresholds": {
@@ -1610,7 +1611,7 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "thresholds"
+            "mode": "continuous-reds"
           },
           "mappings": [],
           "thresholds": {
@@ -2234,7 +2235,7 @@
           "uid": "a4adf42c-0da0-4391-871c-9a7c8e0609a5"
         },
         "definition": "assets{parentIds=[$production_line]}",
-        "hide": 0,
+        "hide": 2,
         "includeAll": false,
         "multi": false,
         "name": "machine_name",
@@ -2255,7 +2256,7 @@
     ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {},
