@@ -30,19 +30,35 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "continuous-GrYlRd"
+            "mode": "thresholds"
           },
           "mappings": [],
           "thresholds": {
-            "mode": "absolute",
+            "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 10
+              },
+              {
+                "color": "#6ED0E0",
+                "value": 30
+              },
+              {
                 "color": "red",
-                "value": 80
+                "value": 60
+              },
+              {
+                "color": "#EF843C",
+                "value": 90
+              },
+              {
+                "color": "#E24D42",
+                "value": 100
               }
             ]
           },
@@ -618,15 +634,31 @@
           },
           "mappings": [],
           "thresholds": {
-            "mode": "absolute",
+            "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
               },
               {
+                "color": "#EF843C",
+                "value": 10
+              },
+              {
+                "color": "#E24D42",
+                "value": 30
+              },
+              {
                 "color": "red",
-                "value": 80
+                "value": 60
+              },
+              {
+                "color": "#EAB839",
+                "value": 90
+              },
+              {
+                "color": "#6ED0E0",
+                "value": 100
               }
             ]
           },
@@ -1012,11 +1044,11 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "continuous-BlPu"
+            "mode": "thresholds"
           },
           "mappings": [],
           "thresholds": {
-            "mode": "absolute",
+            "mode": "percentage",
             "steps": [
               {
                 "color": "green",
@@ -1024,7 +1056,23 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 10
+              },
+              {
+                "color": "#EAB839",
+                "value": 30
+              },
+              {
+                "color": "#6ED0E0",
+                "value": 60
+              },
+              {
+                "color": "#EF843C",
+                "value": 90
+              },
+              {
+                "color": "#E24D42",
+                "value": 100
               }
             ]
           },
@@ -1611,19 +1659,35 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "continuous-reds"
+            "mode": "thresholds"
           },
           "mappings": [],
           "thresholds": {
-            "mode": "absolute",
+            "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 10
+              },
+              {
                 "color": "red",
-                "value": 80
+                "value": 30
+              },
+              {
+                "color": "#6ED0E0",
+                "value": 60
+              },
+              {
+                "color": "#EF843C",
+                "value": 90
+              },
+              {
+                "color": "#E24D42",
+                "value": 100
               }
             ]
           },
@@ -2090,7 +2154,7 @@
       "type": "timeseries"
     }
   ],
-  "refresh": "",
+  "refresh": false,
   "schemaVersion": 38,
   "style": "dark",
   "tags": [],
@@ -2167,8 +2231,8 @@
       {
         "current": {
           "selected": true,
-          "text": "Filling Line",
-          "value": "1127467094338311"
+          "text": "Pasteurization and Homogenization",
+          "value": "8554026933721472"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2197,8 +2261,8 @@
       {
         "current": {
           "selected": false,
-          "text": "Sleeve Dispensing",
-          "value": "89175291901632"
+          "text": "Plate Heat Exchanger",
+          "value": "5129116771199035"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2227,8 +2291,8 @@
       {
         "current": {
           "selected": false,
-          "text": "Sleeve Dispensing",
-          "value": "Sleeve Dispensing"
+          "text": "Plate Heat Exchanger",
+          "value": "Plate Heat Exchanger"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2256,13 +2320,13 @@
     ]
   },
   "time": {
-    "from": "now-7d",
-    "to": "now"
+    "from": "2023-04-19T14:17:08.729Z",
+    "to": "2023-04-19T16:01:16.663Z"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Cognite Chapter 5",
   "uid": "e55ae004-8b5e-409b-81cb-2520b6a7ca5a",
-  "version": 19,
+  "version": 20,
   "weekStart": ""
 }
