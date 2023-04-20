@@ -33,20 +33,14 @@
             "mode": "thresholds"
           },
           "mappings": [],
+          "max": 1,
+          "min": 0,
           "thresholds": {
             "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 10
-              },
-              {
-                "color": "#6ED0E0",
-                "value": 30
               },
               {
                 "color": "red",
@@ -633,20 +627,14 @@
             "mode": "thresholds"
           },
           "mappings": [],
+          "max": 1,
+          "min": 0,
           "thresholds": {
             "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "#EF843C",
-                "value": 10
-              },
-              {
-                "color": "#E24D42",
-                "value": 30
               },
               {
                 "color": "red",
@@ -1047,20 +1035,14 @@
             "mode": "thresholds"
           },
           "mappings": [],
+          "max": 1,
+          "min": 0,
           "thresholds": {
             "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "red",
-                "value": 10
-              },
-              {
-                "color": "#EAB839",
-                "value": 30
               },
               {
                 "color": "#6ED0E0",
@@ -1662,20 +1644,14 @@
             "mode": "thresholds"
           },
           "mappings": [],
+          "max": 1,
+          "min": 0,
           "thresholds": {
             "mode": "percentage",
             "steps": [
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 10
-              },
-              {
-                "color": "red",
-                "value": 30
               },
               {
                 "color": "#6ED0E0",
@@ -2231,8 +2207,8 @@
       {
         "current": {
           "selected": true,
-          "text": "Pasteurization and Homogenization",
-          "value": "8554026933721472"
+          "text": "Filling Line",
+          "value": "1127467094338311"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2261,8 +2237,8 @@
       {
         "current": {
           "selected": false,
-          "text": "Plate Heat Exchanger",
-          "value": "5129116771199035"
+          "text": "Sleeve Dispensing",
+          "value": "89175291901632"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2291,8 +2267,8 @@
       {
         "current": {
           "selected": false,
-          "text": "Plate Heat Exchanger",
-          "value": "Plate Heat Exchanger"
+          "text": "Sleeve Dispensing",
+          "value": "Sleeve Dispensing"
         },
         "datasource": {
           "type": "cognitedata-datasource",
@@ -2320,13 +2296,13 @@
     ]
   },
   "time": {
-    "from": "2023-04-19T14:17:08.729Z",
-    "to": "2023-04-19T16:01:16.663Z"
+    "from": "now-24h",
+    "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Cognite Chapter 5",
   "uid": "e55ae004-8b5e-409b-81cb-2520b6a7ca5a",
-  "version": 20,
+  "version": 21,
   "weekStart": ""
 }
